@@ -182,6 +182,13 @@ Se a pasta já tem nome próprio (não genérico), pular essa fase.
 > Quando quiser tirar isso das costas de vez, roda `/mapear-rotinas`
 > que eu transformo em skill própria."
 
+Se o gargalo apontado na pergunta 10 envolver audiência, conteúdo ou redes sociais, acrescentar ao texto acima, antes de fechar as aspas:
+
+> "Seu gargalo aponta pra conteúdo e presença digital. Quando quiser
+> montar a estratégia de conteúdo do zero, roda `/instalar-conteudo` —
+> é uma pesquisa profunda de 40 a 60 minutos, retomável em qualquer
+> ponto, que destrava todas as skills de conteúdo do sistema."
+
 Se o usuário quiser publicar o trabalho no GitHub, mencionar `/salvar`.
 
 ---
