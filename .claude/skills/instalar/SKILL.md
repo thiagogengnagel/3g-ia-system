@@ -180,14 +180,22 @@ Se a pasta já tem nome próprio (não genérico), pular essa fase.
 >
 > E você mencionou que repete '<resposta da pergunta 11>' toda semana.
 > Quando quiser tirar isso das costas de vez, roda `/mapear-rotinas`
-> que eu transformo em skill própria."
+> que eu transformo em skill própria.
+>
+> Uma parte do sistema merece destaque: o `/instalar-conteudo`. É o
+> coração da parte de conteúdo — uma pesquisa profunda de 40 a 60
+> minutos (retomável em qualquer ponto) que mapeia tua identidade e
+> teu público e destrava todas as skills de conteúdo do sistema.
+> Não precisa ser agora: reserva um horário com calma pra rodar.
+>
+> E se esquecer o que cada comando faz, roda `/dica` — é o manual
+> rápido de tudo que o sistema sabe fazer."
 
-Se o gargalo apontado na pergunta 10 envolver audiência, conteúdo ou redes sociais, acrescentar ao texto acima, antes de fechar as aspas:
+Se o gargalo apontado na pergunta 10 envolver audiência, conteúdo ou redes sociais, trocar a frase "Não precisa ser agora: reserva um horário com calma pra rodar." por:
 
-> "Seu gargalo aponta pra conteúdo e presença digital. Quando quiser
-> montar a estratégia de conteúdo do zero, roda `/instalar-conteudo` —
-> é uma pesquisa profunda de 40 a 60 minutos, retomável em qualquer
-> ponto, que destrava todas as skills de conteúdo do sistema."
+> "Como teu gargalo é justamente conteúdo e presença digital, esse é
+> o passo mais importante da tua primeira semana — reserva um horário
+> com calma pra rodar."
 
 Se o usuário quiser publicar o trabalho no GitHub, mencionar `/salvar`.
 
