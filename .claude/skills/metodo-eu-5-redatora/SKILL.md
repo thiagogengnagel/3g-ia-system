@@ -41,7 +41,7 @@ Responder internamente:
 — Qual é o tom de voz desta marca? (direto, acolhedor, provocador, didático, descontraído)
 — Formal ou informal? Usa gírias ou expressões próprias?
 — Mais objetiva ou mais narrativa?
-— Perfil: dominadora / cuidadora / equilibrada?
+— Perfil: dominador / cuidador / equilibrado?
 — O que esta marca NUNCA diria? Quais palavras fogem do estilo?
 
 ## Princípios de Voz do Método EU

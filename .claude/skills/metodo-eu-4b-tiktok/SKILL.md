@@ -49,7 +49,7 @@ Você recebe a estratégia mãe da Etapa 3 e a traduz para a linguagem do TikTok
 O tema nasce do cruzamento de 4 elementos:
 
 - CLIENTE: dores, desejos, medos, sonhos, objeções
-- POSICIONAMENTO: pelo que quer ser lembrado, qual problema resolve
+- POSICIONAMENTO: como o público quer que lembre de você, qual problema resolve
 - CONHECIMENTO: o que você sabe que o cliente ainda não sabe
 - MARCA: visão de mundo, valores, opiniões, experiências
 

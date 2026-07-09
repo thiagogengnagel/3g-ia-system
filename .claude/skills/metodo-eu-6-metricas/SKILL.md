@@ -206,7 +206,7 @@ Perguntar se alguma mudança deve ser registrada na estratégia mãe atual.
 - **Nunca analisar métrica isolada.** Sempre usar marcador referencial + marcador absoluto.
 - **Diagnóstico com ação.** Nunca só apontar o problema — sempre indicar o que fazer e por quê.
 - **Isenção total.** Não defender a estratégia anterior, não culpar o resultado. Os dados dizem o que dizem.
-- **Linguagem simples.** Qualquer empresário precisa entender sem saber de métricas.
+- **Linguagem simples.** Qualquer pessoa que empreende precisa entender sem saber de métricas.
 - **Checkpoint antes de gravar.** Mostrar a análise e confirmar antes de salvar.
 - **Um arquivo, um resultado.** Tudo em `conteudo/metodo-eu/analise-metricas-<AAAA-MM-DD>.md`.
 - **Sem anexos.** Você cola as métricas no chat; a skill grava o relatório no arquivo.
