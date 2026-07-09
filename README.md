@@ -61,7 +61,9 @@ memória e configura o sistema. Depois disso, é só usar.
 faz commit + push no GitHub · `/atualizar` varre o projeto e atualiza
 a memória · `/novo-projeto` cria pasta isolada pra cada cliente ou
 iniciativa · `/mapear-rotinas` descobre o que você repete e transforma
-em skill personalizada.
+em skill personalizada · `/dica` mostra o manual rápido de todos os
+comandos e sugere o próximo passo — pra quando esquecer o que cada
+skill faz.
 
 **Estratégia** — o método 3G dentro do sistema
 `/estrategista` monta a estratégia completa do teu negócio: pesquisa de
