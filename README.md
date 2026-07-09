@@ -82,10 +82,25 @@ pronto-socorro: manda o print do Gerenciador e sai com diagnóstico,
 semáforo por métrica e plano de ação — o que pausar, o que manter,
 o que escalar.
 
-**Na próxima atualização** — conteúdo e vitrine pública
-Skills de carrossel, publicação de tema, SEO e resposta a avaliações
-estão em produção. Quando saírem, um `git pull` traz tudo pra tua
-pasta sem perder nada do que você já configurou.
+**Conteúdo — Método EU** — estratégia única por Maria Carolina
+Fluxo encadeado de 6 etapas: mapeamento → produto → estratégia → plataforma → redação → métricas.
+
+`/instalar-conteudo` abre a entrevista de mapeamento de identidade e
+público-alvo — 33 perguntas, 4 blocos, retomável por sessão ·
+`/metodo-eu-2-analise-produto` transforma o que você vende em clareza
+estratégica: promessa, público específico de cada produto e
+precificação · `/estrategia-conteudo` monta a estratégia mãe do
+período com distribuição HERO/HELP/HUB e matriz de temas por
+plataforma · `/metodo-eu-4a-instagram` traduz a estratégia mãe para
+Reels, carrosséis, estáticos, legendas e stories — conteúdo completo
+e pronto pra publicar · `/metodo-eu-4b-tiktok` cria roteiros
+completos com a Cebola do Conteúdo e distribuição 1-2-7 ·
+`/metodo-eu-5-redatora` refina qualquer texto de plataforma na voz da
+marca ou cria conteúdo avulso do zero · `/metodo-eu-6-metricas`
+transforma números em decisões e ajustes concretos pra próxima
+estratégia.
+
+Metodologia: Método EU — Estratégia Única, por Maria Carolina.
 
 ---
 
