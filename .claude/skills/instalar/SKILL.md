@@ -1,11 +1,12 @@
 ﻿---
 name: instalar
 description: >
-  Instala o 3G IA System no negócio do usuário. Entrevista sobre empresa, tom de voz,
-  foco atual e identidade visual, e preenche `_memoria/empresa.md`, `_memoria/preferencias.md`,
-  `_memoria/estrategia.md`, `identidade/design-guide.md` e adapta o `CLAUDE.md` conforme o perfil.
-  Use quando o usuário acabou de clonar o repositório e quer instalar o sistema, ou quando
-  pedir explicitamente "rodar /instalar", "instalar o 3G IA System", "primeiro setup".
+  Instala o 3G IA System no negócio do usuário. Entrevista sobre nível de experiência com IA,
+  empresa, tom de voz, foco atual e identidade visual, e preenche `_memoria/empresa.md`,
+  `_memoria/preferencias.md`, `_memoria/estrategia.md`, `identidade/design-guide.md` e adapta
+  o `CLAUDE.md` conforme o perfil. Use quando o usuário acabou de clonar o repositório e quer
+  instalar o sistema, ou quando pedir explicitamente "rodar /instalar", "instalar o 3G IA System",
+  "primeiro setup".
 ---
 
 # /instalar — Instalação inicial do 3G IA System
@@ -36,6 +37,20 @@ Se algum já tiver conteúdo real, perguntar:
 > "Já tem algum contexto preenchido aqui. Quer que eu sobrescreva (recomeçar do zero) ou complemente o que falta?"
 
 Se for setup limpo, seguir direto.
+
+---
+
+## Fase 0 — Nível de experiência com IA
+
+Antes de qualquer outra pergunta:
+
+> "Antes de começar, uma pergunta importante: qual é o teu nível de experiência com inteligência artificial hoje? Isso me ajuda a calibrar o quanto de ajuda te dar no dia a dia, sem te sobrecarregar nem te deixar perdido.
+>
+> 1. **Leigo** — essa seria minha primeira vez usando uma ferramenta de IA assim
+> 2. **Iniciante** — já uso ChatGPT ou IA no dia a dia, mas nunca mexi em terminal, Git ou VS Code
+> 3. **Avançado** — sou confortável com tecnologia, já uso Claude Code ou ferramenta parecida"
+
+Registrar a resposta pra usar na Fase 3. Se a pessoa disser "leigo", adaptar o próprio tom do resto da entrevista: explicar cada pergunta em linguagem simples, sem jargão técnico, e ir com calma — essa calibração vale a partir de agora, não só depois do setup.
 
 ---
 
@@ -87,10 +102,18 @@ Fazer essas perguntas em ordem, esperando a resposta de cada uma antes de seguir
 Preencher com base nas perguntas 1-4. Manter formato simples — nome, o que faz, perfil de cliente, equipe.
 
 ### `_memoria/preferencias.md`
-Preencher com base nas perguntas 5-6. Estrutura:
+Preencher com base nas perguntas 5-6 e na Fase 0. Estrutura:
 - **Tom de voz:** derivar do exemplo de escrita real da pergunta 5 (descrever em 2-3 frases o jeito de escrever, com referência ao exemplo)
 - **O que evitar:** lista direta da resposta 6
 - **Estilo geral:** síntese do que combina e o que destoa
+- **Nível de experiência com IA:** o nível escolhido na Fase 0 (Leigo/Iniciante/Avançado) mais a data de hoje como "Última calibração". Formato:
+  ```
+  ## Nível de experiência com IA
+
+  **Nível:** [Leigo | Iniciante | Avançado]
+  **Última calibração:** [data de hoje]
+  ```
+  O `CLAUDE.md` já tem a regra de como calibrar ajuda a partir disso e de como recalibrar a cada 15 dias — não precisa repetir a lógica aqui
 
 ### `_memoria/estrategia.md`
 Preencher com base nas perguntas 7-11. Estrutura:
@@ -128,6 +151,7 @@ Mostrar pro usuário o que foi configurado:
 
 ```
 ✓ Perfil aplicado: [perfil]
+✓ Nível de IA: [Leigo | Iniciante | Avançado]
 ✓ Contexto do negócio: _memoria/empresa.md
 ✓ Tom de voz: _memoria/preferencias.md
 ✓ Diagnóstico 3G + foco: _memoria/estrategia.md
@@ -198,6 +222,8 @@ Se o gargalo apontado na pergunta 10 envolver audiência, conteúdo ou redes soc
 > com calma pra rodar."
 
 Se o usuário quiser publicar o trabalho no GitHub, mencionar `/salvar`.
+
+Se o nível de IA (Fase 0) for **Leigo**, detalhar mais essa mensagem final: explicar o que é um "comando" (`/algumacoisa`, digitado direto no chat), como abrir um chat novo no VS Code, e reforçar que não tem como "quebrar" nada testando. Se for **Avançado**, pode ser mais direto e enxuto, sem explicar o básico.
 
 ---
 

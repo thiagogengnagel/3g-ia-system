@@ -46,6 +46,49 @@ padrão de repetição for claro.
 
 ---
 
+## Calibrar ajuda pelo nível de IA do usuário
+
+`_memoria/preferencias.md` guarda o nível de experiência com IA que a
+pessoa informou no `/instalar` (Leigo, Iniciante ou Avançado). Usar isso
+pra decidir quanto orientar ao final de cada tarefa ou skill executada,
+não só no `/instalar`:
+
+- **Leigo** — terminar toda resposta relevante com um bloco "Próximos
+  passos" numerado e concreto: o que fazer agora, se vale abrir um chat
+  novo (e com qual pergunta), qual comando ou skill rodar em seguida.
+  Não assumir nenhum conhecimento prévio de terminal, Git, VS Code ou
+  dos conceitos de IA — explicar em linguagem simples, sem jargão
+- **Iniciante** — terminar com uma sugestão breve de próximo passo
+  (comando ou skill), sem detalhar operação básica de VS Code ou terminal
+- **Avançado** — não adicionar "próximos passos" por padrão, só quando a
+  pessoa pedir
+
+Se `_memoria/preferencias.md` ainda não tiver esse campo preenchido
+(sistema instalado antes dessa regra existir), perguntar uma vez qual
+nível combina melhor e salvar a resposta lá.
+
+**Recalibrar a cada 15 dias:** o campo guarda também uma "Última
+calibração" (data). No início de toda conversa, comparar essa data
+com a de hoje. Se tiverem passado 15 dias ou mais desde a última
+calibração, perguntar — uma vez por conversa, sem travar o que a
+pessoa veio fazer, pode ir junto da resposta normal:
+
+> "Faz [X] dias desde que calibramos teu nível de IA como [nível
+> atual]. Você sente que evoluiu e quer subir de nível, ou ainda se
+> sente no mesmo patamar?"
+
+Depois da resposta, atualizar `_memoria/preferencias.md`: o nível (se
+mudou) e a "Última calibração" pra data de hoje — independente de ter
+mudado de nível ou confirmado o mesmo. Isso reinicia a contagem dos
+próximos 15 dias. Se a pessoa não responder ou desviar, não insistir
+na mesma conversa; tentar de novo na próxima.
+
+Se o campo "Última calibração" não existir (preferencias.md de antes
+dessa regra), não perguntar na hora — só registrar a data de hoje
+como ponto de partida e perguntar dali a 15 dias.
+
+---
+
 ## Aprender com correções
 
 Quando o usuário corrigir algo, melhorar uma resposta ou dar uma
@@ -113,3 +156,71 @@ Quando o usuário pedir skill nova:
 4. Se a skill precisar de arquivos de apoio (templates, exemplos),
    criar dentro da pasta da skill
 5. Seguir o fluxo da skill-creator nativa do Claude Code
+
+---
+
+# 3G Aceleradora
+
+> Perfil: agência / consultoria — equipe pequena (2 pessoas) entregando
+> mentoria, consultoria e implementação de IA pra múltiplos clientes.
+
+## O que é esse workspace
+
+Operação da 3G Aceleradora. Aqui ficam clientes, propostas, conteúdo e
+entregas da mentoria de aceleração de negócios.
+
+**Estrutura de pastas:**
+- `_memoria/` — quem é a 3G Aceleradora, como falamos, foco atual
+- `identidade/` — marca da 3G Aceleradora (logo, cores, fontes)
+- `dados/` — arquivos a analisar (relatórios de cliente, exports de ads)
+- `marketing/` — conteúdo institucional da própria 3G Aceleradora
+- `saidas/` — documentos pontuais, análises
+- `templates/` — modelos reutilizáveis
+- `clientes/` — criar uma subpasta por cliente conforme forem entrando (`clientes/<Nome>/`)
+- `propostas/` — criar conforme propostas forem sendo montadas (`propostas/<cliente>-<data>.html`)
+
+## Sobre a agência
+
+Aceleradora digital focada em performance para o negócio do cliente —
+implementamos conteúdo, marketing e IA. Atendemos empresários que faturam
+R$ 30-50k/mês, com 1-4 colaboradores, sofrendo com estagnação, falta de
+funil e dependência de indicação.
+
+Serviços principais:
+- Mentoria individual (R$ 5.000, 90 dias, aula semanal)
+- Implementação do 3G IA System em outras empresas (a partir de R$ 1.500)
+- Prestação de serviço de tráfego pago (a partir de R$ 1.500/mês)
+
+Time: 2 pessoas — Thiago (IA e marketing) e sua irmã/sócia (conteúdo e
+marketing).
+
+## O que mais produzimos aqui
+
+- Propostas comerciais pra novos clientes
+- Conteúdo pra redes (Método EU)
+- Campanhas de tráfego pago (Meta Ads e Google Ads)
+- Diagnósticos e relatórios de performance de campanha
+
+## Tom de voz
+
+Direto e informal — fala do jeito que pensa, sem forçar textos
+"engajados" pra não soar robótico. Evitar vícios de linguagem como
+"tipo", "então", "hmmm" e jargão de guru.
+
+## Regras do sistema
+
+- Cliente novo → criar pasta `clientes/<Nome>/` com briefing, estratégia
+  e subpastas conforme as entregas contratadas
+- Proposta nova → `propostas/<cliente>-<data>.html` antes de fechar
+- Casos de sucesso ficam em `clientes/<Nome>/caso.md` (reuso em pitches)
+
+## Ferramentas conectadas
+
+- [ ] Notion
+- [ ] Gmail
+- [ ] Google Calendar
+- [ ] Canva
+- [x] Meta Ads
+- [x] Google Ads
+
+*(Marcar conforme for instalando os MCPs)*
